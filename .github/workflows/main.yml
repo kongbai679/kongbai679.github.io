@@ -1,13 +1,15 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Build And Submiton
+
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
   
-# Simple workflow for deploying static content to GitHub Pages
-name: Build And Submit
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
+  contents: read
   pages: write
   id-token: write
 
@@ -48,6 +50,6 @@ jobs:
         
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v3
+      uses: actions/deploy-pages@v4
 
 
