@@ -2,7 +2,7 @@
 
 一个基于 Flask 的现代化个人主页应用，可展示您的 GitHub 个人信息、项目和技术栈，并支持多种部署方式。
 
-<img width="1280" height="700" alt="image" src="https://github.com/user-attachments/assets/7d394bbd-c4ed-4398-a551-104237f90c4e" />
+
 
 
 ## 🚀 功能特点
@@ -153,7 +153,7 @@ bash deploy.sh help
 - 自动将生成的静态文件提交到当前分支
 - 支持在 GitHub 仓库的 Actions 页面手动触发运行
 
-GitHub Actions 配置文件可参考[个人项目主页](https://github.com/SRInternet/SRInternet.github.io/blob/master/.github/workflows/build-deploy.yml)
+
 
 ## ⚙️ 配置详解
 
