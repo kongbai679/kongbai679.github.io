@@ -9,6 +9,10 @@
 ## 技术栈
 
 - Python
+- c++/c#
+- GO
+- X64/X86汇编
+- Linux
 - JavaScript
 - HTML/CSS
 - Flask
