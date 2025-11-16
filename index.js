@@ -24,11 +24,5 @@ if (typeof window !== 'undefined') {
 // 导出一个简单的函数以便在其他地方使用
 export function initPage() {
     console.log('个人主页已初始化');
-    var script = document.createElement("script");
-script.setAttribute("type","text/javascript");
-script.setAttribute("id","myhk");
-script.setAttribute("src","https://myhkw.cn/api/player/1718949454146");
-script.setAttribute("key","1718949454146");
-script.setAttribute("m","1");
-document.documentElement.appendChild(script);
+   
 }
