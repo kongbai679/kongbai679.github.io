@@ -18,6 +18,7 @@
 - Flask
 - Vue.js
 - React
+- QML
 
 ## 项目展示
 
